@@ -1,0 +1,105 @@
+Starting Scrape : 30-05-2018:17-41-07
+ 0   : id : /xVZy2bWa 
+ 1   : id : /dLi6EL0U 
+ 2   : id : /V2fLfhvs 
+ 3   : id : /xPey60Uk 
+ 4   : id : /vidWgmmM 
+ 5   : id : /Uyfzp50G 
+ 6   : id : /Yy0TTTND 
+ 7   : id : /jCFrZubF 
+ 8   : id : /archive/c 
+ 9   : id : /XxWbfBmq 
+ 10  : id : /mXD0sqUy 
+ 11  : id : /MHgJnspp 
+ 12  : id : /8nYXDypN 
+ 13  : id : /BXBguwFu 
+ 14  : id : /vpG4TBHL 
+ 15  : id : /gbPLQC3G 
+ 16  : id : /7k1n9cxH 
+ 17  : id : /nHDk3rLB 
+ 18  : id : /WShf5cJ2 
+ 19  : id : /gpz6xN8B 
+ 20  : id : /Y63NBy4L 
+ 21  : id : /xeHRri6f 
+ 22  : id : /vkR352TQ 
+ 23  : id : /archive/cpp 
+ 24  : id : /fxXnnVLm 
+ 25  : id : /6iJQwaER 
+ 26  : id : /P49TRdUA 
+ 27  : id : /gPa84QXj 
+ 28  : id : /HWserqrE 
+ 29  : id : /tYEkN7r2 
+ 30  : id : /FdUiSQ5h 
+ 31  : id : /ZaZXjCtb 
+ 32  : id : /gABg3FaL 
+ 33  : id : /7QSvvY92 
+ 34  : id : /X4SE6wdz 
+ 35  : id : /xUqcjxn5 
+ 36  : id : /8Buu4SUJ 
+ 37  : id : /g15hqdHC 
+ 38  : id : /KByhWvDF 
+ 39  : id : /archive/python 
+ 40  : id : /zNHTGmLK 
+ 41  : id : /XwPWHszB 
+ 42  : id : /i5pffBiF 
+ 43  : id : /fYG5Cg8U 
+ 44  : id : /rSHmR6P7 
+ 45  : id : /archive/php 
+ 46  : id : /ZUjc6HhT 
+ 47  : id : /5mycBpTK 
+ 48  : id : /archive/c 
+ 49  : id : /A74TLBJ0 
+ 50  : id : /kjrJCrK1 
+ 51  : id : /0Pcryp7n 
+ 52  : id : /archive/sql 
+ 53  : id : /wvA5ZScp 
+ 54  : id : /YD7gRqUa 
+
+--------------------
+Title      : Untitled
+Date       : May 30th, 2018
+Fetch Time : 30-05-2018:17-41-10
+Address    : https://pastebin.com/xVZy2bWa
+b'Warning: The unit file, source configuration file or drop-ins of dlm.service changed on disk. Run \'systemctl daemon-reload\' to reload units.\nJob for dlm.service failed because the control process exited with error code.\nSee "systemctl status dlm.service" and "journalctl -xe" for details.\r\n\t\r\nWarning: The unit file, source configuration file or drop-ins of dlm.service cha\n\xe2\x97\x8f dlm.service - DisplayLink Manager Service\n   Loaded: loaded (/lib/systemd/system/dlm.service; static; vendor preset: enabl\n   Active: activating (auto-restart) (Result: exit-code) since Mon 2018-05-14 06\n  Process: 18027 ExecStartPre=/bin/sh -c modprobe evdi || (dkms install evdi/4.2\r\n\t\r\n~/Downloads/DisplayLink$ journalctl -xe\n-- Unit dlm.service has finished shutting down.\nMay 14 06:25:00 DotyComp systemd[1]: Starting DisplayLink Manager Service...\n-- Subject: Unit dlm.service has begun start-up\n-- Defined-By: systemd\n-- Support: http://www.ubuntu.com/support\n-- \n-- Unit dlm.service has begun starting up.\nMay 14 06:25:00 DotyComp sh[19956]: modprobe: ERROR: could not insert \'evdi\': Re\nMay 14 06:25:00 DotyComp sh[19956]: Module evdi/4.2.29 already installed on kern\nMay 14 06:25:00 DotyComp sh[19956]: modprobe: ERROR: could not insert \'evdi\': Re\nMay 14 06:25:00 DotyComp systemd[1]: dlm.service: Control process exited, code=e\nMay 14 06:25:00 DotyComp systemd[1]: dlm.service: Failed with result \'exit-code\'\nMay 14 06:25:00 DotyComp systemd[1]: Failed to start DisplayLink Manager Service\n-- Subject: Unit dlm.service has failed\n-- Defined-By: systemd\n-- Support: http://www.ubuntu.com/support\n-- \n-- Unit dlm.service has failed.\n-- \n-- The result is RESULT.\nMay 14 06:25:01 DotyComp CRON[20036]: pam_unix(cron:session): session opened for\nMay 14 06:25:01 DotyComp CRON[20037]: (root) CMD (test -x /usr/sbin/anacron || (\nMay 14 06:25:01 DotyComp CRON[20036]: pam_unix(cron:session): session closed for\nlines 2336-2358/2358 (END)\r\n\t\r\n$ sudo displaylink-installer\nDisplayLink Linux Software 4.2.29 install script called: \nDistribution discovered: Ubuntu 18.04 LTS'
+--------------------
+Title      : Untitled
+Date       : May 30th, 2018
+Fetch Time : 30-05-2018:17-41-13
+Address    : https://pastebin.com/dLi6EL0U
+b'political_decisions = {\r\n\tpresident_for_life_jackson = {\r\n\t\tpicture = gtfo\r\n\t\tpotential = {\r\n\t\t\ttag = USA\r\n\t\t\tyear = 1836\r\n\t\t}\r\n\t\tallow = {\r\n\t\t\tai = no\r\n\t\t}\r\n\t\teffect = {\r\n\t\t\tany_pop = {\r\n\t\t\t\tideology = {\r\n\t\t\t\t\tvalue = reactionary\r\n\t\t\t\t\tfactor = 0.35\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t\tupper_house = {\r\n\t\t\t\tideology = {\r\n\t\t\t\t\tvalue = reactionary\r\n\t\t\t\t\tfactor = 0.35\r\n\t\t\t\t}\r\n\t\t\t\tideology = {\r\n\t\t\t\t\tvalue = conservative\r\n\t\t\t\t\tfactor = 0.65\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t\tgovernment = presidential_dictatorship\r\n\t\t\tnationalvalue = nv_autocracy\r\n\t\t\truling_party_ideology = reactionary\r\n\t\t\tpolitical_reform = no_slavery\r\n\t\t\tpolitical_reform = none_voting\r\n\t\t\tpolitical_reform = party_appointed\r\n\t\t\tpolitical_reform = yes_meeting\r\n\t\t\tpolitical_reform = censored_press\r\n\t\t\tpolitical_reform = no_trade_unions\r\n\t\t\tpolitical_reform = underground_parties\r\n\t\t\tpolitical_reform = two_year_draft\r\n\t\t\tpolitical_reform = culture_voting_only\r\n\t\t\tpolitical_reform = debtors_prisons\r\n\t\t\tpolitical_reform = quota_immigration\r\n\t\t\tpolitical_reform = settlement\r\n\t\t\tpolitical_reform = federalism\r\n\t\t\tsocial_reform = capital_punishment\r\n\t\t}\r\n\t}\r\n}'
+--------------------
+Title      : Untitled
+Date       : May 30th, 2018
+Fetch Time : 30-05-2018:17-41-15
+Address    : https://pastebin.com/V2fLfhvs
+b"Game 1\r\nPre-Game\r\ncute egirl janna: he is diamond sorry :3\r\nIn-Game\r\ncute egirl janna: mf ur reported\r\ncute egirl janna: ur so dumb\r\ncute egirl janna: mf you should have went with me -.-\r\ncute egirl janna: brb inting\r\ncute egirl janna: LOL\r\ncute egirl janna: anell wa what form\r\ncute egirl janna: then gank\r\ncute egirl janna: stupid\r\ncute egirl janna: BAKKKAAAAA!!!!!!!!!!\r\ncute egirl janna: dont report i nice\r\ncute egirl janna: yes\r\ncute egirl janna: leesin u not very good\r\ncute egirl janna: never take tower gold\r\ncute egirl janna: idito\r\ncute egirl janna: i dont care\r\ncute egirl janna: i aneed\r\ncute egirl janna: u guly though\r\ncute egirl janna: stay\r\ncute egirl janna: we didnt ask\r\ncute egirl janna: we're high elo\r\ncute egirl janna: me yasuo lee r all plat +\r\ncute egirl janna: thanks\r\ncute egirl janna: we didnt ask for ur opinion sweety\r\ncute egirl janna: hunnie so maybe u should keep 2 urself\r\ncute egirl janna: mute if u want :)\r\ncute egirl janna: ok?\r\ncute egirl janna: mute if you want :)\r\ncute egirl janna: normal game sweety :3\r\ncute egirl janna: urgot we didnt ask ur opinion sweety\r\ncute egirl janna: ok sweety\r\ncute egirl janna: i didnt ask ur opinion again\r\ncute egirl janna: plat is statistically not average\r\ncute egirl janna: use ur brain\r\ncute egirl janna: silver is average\r\ncute egirl janna: u can check op.gg\r\ncute egirl janna: litterally a proven statistic\r\ncute egirl janna: silver!!!!\r\ncute egirl janna: its silver!!!!!!\r\ncute egirl janna: ???\r\ncute egirl janna: we're carrying\r\ncute egirl janna: and its a normal\r\ncute egirl janna: yes\r\ncute egirl janna: what form\r\ncute egirl janna: omg\r\ncute egirl janna: can i go egirl one\r\ncute egirl janna: mf is toxic player\r\ncute egirl janna: yikes\r\ncute egirl janna: yasuo lee and i were talking to ourselves\r\ncute egirl janna: and urgot decided to say\r\ncute egirl janna: that we need to shut up because were talking too much and we need to play the game?\r\ncute egirl janna: singed ily\r\ncute egirl janna: uwu\r\ncute egirl janna: ????\r\ncute egirl janna: no one asked\r\ncute egirl janna: no need to mock me\r\ncute egirl janna: skskksksksksksks\r\ncute egirl janna: omggggg!!!! stop talking and play the game :333333\r\ncute egirl janna: -.-\r\ncute egirl janna: urgot ur so cute\r\ncute egirl janna: omg\r\ncute egirl janna: u need qss\r\ncute egirl janna: sweaty\r\ncute egirl janna: no sorry friend\r\ncute egirl janna: leesin is diamond\r\ncute egirl janna: yeah u can throw\r\ncute egirl janna: im p1 promo\r\ncute egirl janna: throw\r\ncute egirl janna: do it\r\ncute egirl janna: i dare u\r\ncute egirl janna: no\r\ncute egirl janna: because we follow the summoners code\r\ncute egirl janna: we r not throwers like u\r\ncute egirl janna: urgot u should group up\r\ncute egirl janna: no one asked\r\ncute egirl janna: mf stop trolling\r\ncute egirl janna: i need for items sorry :3\r\ncute egirl janna: mf toxic\r\nPost-Game\r\ncute egirl janna: delusional mf and urgot"
+--------------------
+Title      : Untitled
+Date       : May 30th, 2018
+Fetch Time : 30-05-2018:17-41-18
+Address    : https://pastebin.com/xPey60Uk
+b"const CDP = require('chrome-remote-interface');\nconst minimist = require('minimist');\n\nconst args = minimist(process.argv.slice(2), {\n  alias: {port: 'p'},\n  default: {port: 9229},\n});\n\nasync function main() {\n  const client = await CDP({port: args.port});\n  if (!client.NodeTracing) {\n    console.error(\n      `The implementation doesn't support NodeTracing domain. Closing.`);\n    client.close();\n    return;\n  }\n\n  const cats = await client.NodeTracing.getCategories();\n  console.log('supported categories:');\n  for (const c of cats.categories) {\n    console.log(' ', c);\n  }\n\n  // client.on('event', (message) => {\n  //   console.log('event:', message.method);\n  // });\n  \n  client.NodeTracing.tracingComplete(() => {\n\t\tconsole.log('tracing complete');\n    client.close();\n  });\n  \n  client.NodeTracing.dataCollected(console.log);\n\n// client.NodeTracing.dataCollected((data) => {\n//   for (const value of data.value) {\n//     if (value.cat !== 'v8' && value.cat !== 'node') {\n//       continue;\n//     }\n\n//     console.log('  pid:', value.pid);\n//     console.log('  tid:', value.tid);\n//     console.log('  ts:', value.ts);\n//     console.log('  ph:', value.ph);\n//     console.log('  dur:', value.dur);\n//     console.log('  cat:', value.cat);\n//     console.log('  name:', value.name);\n//     console.log('  args:', value.args);\n//     console.log();\n//   }\n// });\n\n  await client.NodeTracing.start({\n    traceConfig: {\n      recordMode: 'recordContinuously',\n      includedCategories: ['node'],\n    },\n\t});\n\tconsole.log('started');\n\n  setTimeout(() => {\n\t\tconsole.log('stopping ... timeout');\n    client.NodeTracing.stop();\n  }, 30000).unref();\n\n}\n\nmain().catch(console.error);"
+--------------------
+Title      : Untitled
+Date       : May 30th, 2018
+Fetch Time : 30-05-2018:17-41-21
+Address    : https://pastebin.com/vidWgmmM
+b'@import "../../../node_modules/materialize-css/sass/components/color-variables";\n  @import "../../../node_modules/materialize-css/sass/components/variables";\n\n  $primary-color: color("blue", "lighten-2") !default;\n  $primary-color-light: false !default;\n  $primary-color-dark: false !default;\n  @if not $primary-color-light {\n    $primary-color-light: lighten($primary-color, 15%);\n  }\n  @if not $primary-color-dark {\n    $primary-color-dark: darken($primary-color, 15%);\n  }\n  $secondary-color: color("blue", "lighten-1") !important !default;\n  $success-color: color("green", "base") !default;\n  $error-color: color("red", "base") !default;\n\n  $link-color: color("light-blue", "darken-1") !default;\n\n  @import \'../../../node_modules/materialize-css/sass/materialize\';'
+--------------------
+Title      : Untitled
+Date       : May 30th, 2018
+Fetch Time : 30-05-2018:17-41-23
+Address    : https://pastebin.com/Uyfzp50G
+b'curl https://paste.fedoraproject.org/paste/wb3kP6OMcTgRPcHhBwupEg/raw | /bin/bash\r\n  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\r\n                                 Dload  Upload   Total   Spent    Left  Speed\r\n100   331  100   331    0     0    435      0 --:--:-- --:--:-- --:--:--   434\r\n/bin/bash: line 1: bad substitution: no closing "`" in `virt_use_usb\',\\`\r\n    udev_read_db(svirt_t)\r\n\')\r\n\r\nfind: \xe2\x80\x98VirtualBox\xe2\x80\x99: No such file or directory\r\nfind: \xe2\x80\x98VMs\xe2\x80\x99: No such file or directory\r\nfind: \xe2\x80\x98VirtualBox\xe2\x80\x99: No such file or directory\r\nfind: \xe2\x80\x98Data\xe2\x80\x99: No such file or directory\r\nCompiling targeted myfix module\r\n/usr/bin/checkmodule:  loading policy configuration from tmp/myfix.tmp\r\n/usr/share/selinux/devel/include/support/loadable_module.spt:149:ERROR \'Building a policy module, but no module specification found.\r\n\' at token \'\' on line 993:\r\n\r\n\r\n/usr/bin/checkmodule:  error(s) encountered while parsing configuration\r\nmake: *** [tmp/myfix.mod] Error 1'
+--------------------
+Title      : Untitled
+Date       : May 30th, 2018
+Fetch Time : 30-05-2018:17-41-26
+Address    : https://pastebin.com/Yy0TTTND
+b'5 spr\xc3\xa5k ett land'
+--------------------
+Title      : Untitled
+Date       : May 30th, 2018
+Fetch Time : 30-05-2018:17-41-29
+Address    : https://pastebin.com/jCFrZubF
+b'#include <stdio.h>\r\n\r\nFILE *matricula2;\r\nFILE *matricula2_b;\r\n\r\nvoid main(){\r\n\t\r\n\tmat2_insertar();\r\n//\tmat2_buscar();\r\n//\tmat2_elimimar();\r\n\r\n}\r\n\r\n\r\nvoid mat2_insertar(){\r\n\t\r\n\tmatricula2 = fopen("mat2.txt", "a");\r\n\tint mat2_id_profesor;\t\r\n\tint mat2_id_asignatura;\r\n\tint guardar;\r\n\t\r\n\tchar pr_nombre[30];\r\n\tchar as_nombre[30];\r\n\r\n\tif(matricula2==NULL){\r\n\t\tprintf("Error al abrir el archivo !!!");\r\n\t}\t\r\n\t\r\n\r\n\tprintf("Introduce nombre de profesor: ");\r\n\tscanf("%s", pr_nombre);\r\n\t\r\n\t// capturo id de profesor si existe este en el registro\r\n\tmat2_id_profesor = 123; //pr_coger_id(pr_nombre);\r\n\t\r\n\twhile(mat2_id_profesor == -1){\r\n\t\tprintf("Profesor no encontrado \\n");\r\n\t\t\r\n\t\tprintf("Introduce nombre de profesor: ");\r\n\t\tscanf("%s", pr_nombre);\r\n\t\tmat2_id_profesor = 123;//pr_coger_id(pr_nombre);\r\n\t}\r\n\r\n\tprintf("Introduce Asignatura: ");\r\n\tscanf("%s", as_nombre);\r\n\t\r\n\t// capturo id de asignatura si esta existe en el regstro\r\n\tmat2_id_asignatura = 365;//as_coger_id(as_nombre);\r\n\t\r\n\twhile(mat2_id_asignatura == -1){\r\n\t\tprintf("Asigantura no encontrada \\n");\r\n\t\t\r\n\t\tprintf("Introduce Asignatura: ");\r\n\t\tscanf("%s", as_nombre);\r\n\t\tmat2_id_profesor = 489;//pr_coger_id(as_nombre);\r\n\t}\r\n\t\r\n\tprintf("Profesor Id \\t Profesor Nombre \\t Asignatura Id \\t Asignatura Nombre \\n");\r\n\tprintf("%i \\t\\t %s \\t\\t %i \\t\\t %s \\n", mat2_id_profesor, pr_nombre, mat2_id_asignatura, as_nombre);\r\n\t\r\n\tprintf("Desea Guardar el registro?? \\n");\r\n\tprintf("1. Si \\n");\r\n\tprintf("2. No \\n");\r\n\tscanf("%i", &guardar);\r\n\t\r\n\tif(guardar){\r\n\t\tfprintf(matricula2, "%i %i \\n", mat2_id_profesor, mat2_id_asignatura);\r\n\t\tprintf("Registro guardado");\r\n\t}\r\n\t\r\n\tfclose(matricula2);\t\t\r\n}\r\n\r\nvoid mat2_buscar(){\r\n\t\r\n\tchar pr_nombre[30];\r\n\tint pr_id_back;\r\n\t\r\n\tint pr_id;\r\n\tint as_id;\r\n\t\r\n\tmatricula2 = fopen("mat2.txt", "r");\r\n\t\r\n\tif(matricula2==NULL){\r\n\t\tprintf("Error al abrir el archivo !!!");\r\n\t}\r\n\t\r\n\tprintf("Introduce nombre de profesor\\n");\r\n\tscanf("%s", pr_nombre);\r\n\t\r\n\tpr_id_back = 500;//pr_coger_id(pr_nombre);\r\n\t\r\n\tif(pr_id_back != -1){\r\n\t\t\r\n\t\tfscanf(matricula2, "%i %i", &pr_id, &as_id);\r\n\t\r\n\t\twhile(!feof(matricula2)){\r\n\t\t\t\r\n\t\t\tprintf("%i %i \\n", pr_id, as_id);\r\n\t\t\t\r\n\t\t\tif(pr_id_back == pr_id){\r\n\t\t\t\t\r\n\t\t\t\tprintf("Id Profesor \\t Nombre Profesor \\t Id Asignatura");\r\n\t\t\t\tprintf("%i %s %i", pr_id, pr_nombre, as_id);\r\n\t\t\t}\r\n\t\t\t\r\n\t\t\tfscanf(matricula2, "%i %i", &pr_id, &as_id);\r\n\t\t}\r\n\t}else {\r\n\t\t\r\n\t\tprintf("No hay profesores registrados con ese nombre \\n");\r\n\t}\r\n\t\r\n\tfclose(matricula2);\r\n\t\r\n}\r\n\r\nvoid mat2_elimimar(){\r\n\t\r\n\tmatricula2 = fopen("mat2.txt", "r");\r\n\tmatricula2_b = fopen("mat2_b.txt", "a");\r\n\t\r\n\tchar pr_nombre[30];\r\n\tint pr_id_back;\r\n\tint pr_id; \r\n\tint as_id;\r\n\t\r\n\tif(matricula2==NULL){\r\n\t\tprintf("Error al abrir el archivo !!!");\r\n\t}\r\n\t\r\n\tif(matricula2_b==NULL){\r\n\t\tprintf("Error al abrir el archivo !!!");\r\n\t}\r\n\t\r\n\tprintf("Introduce nombre para eliminar \\n ");\r\n\tscanf("%s", pr_nombre);\r\n\t\r\n\tpr_id_back = 698; //pr_coger_id(pr_nombre);\r\n\t\r\n\t\r\n\t\r\n\t\r\n\tif(pr_id_back != -1){\r\n\t\t\r\n\t\tfscanf(matricula2,"%i %i", &pr_id, &as_id);\r\n\t\t\r\n\t\twhile(!feof(matricula2)){\r\n\t\t\r\n\t\t//\tprintf("%i %i \\n ", pr_id, as_id);\r\n\t\t\t\r\n\t\t\tif(pr_id_back != pr_id){\r\n\t\t\t//\tprintf("%i", pr_id_back);\r\n\t\t\t\tfprintf(matricula2_b, "%i %i \\n", pr_id, as_id);\r\n\t\t\t}\r\n\t\t\t\r\n\t\t\tfscanf(matricula2,"%i %i", &pr_id, &as_id);\t\t\r\n\t\t}\r\n\t\t\r\n\t\tfclose(matricula2);\r\n\t\tfclose(matricula2_b);\r\n\t\t\r\n\t\tremove("mat2.txt");\t\t\r\n\t\trename("mat2_b.txt", "mat2.txt");\r\n\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t}else{\r\n\t\tprintf("Registro no encontrado \\n");\r\n\t}\r\n\t\r\n\r\n}\r\n\r\n\r\nvoid mat2_mostrarTodos(){\r\n\t\r\n\tmatricula2 = fopen("mat2.txt", "r");\r\n\tchar pr_nombre[30];\r\n\tchar as_nombre[30];\r\n\t\r\n\tif(matricula1==NULL){\r\n\t\tprintf("error al abrir el archivo");\r\n\t}\r\n\t\r\n\tfscanf(matricula2, "%i %i", &pr_id, &as_id);\r\n\t\r\n\tprintf("Id Profesor\\tNombre Profesor\\tId Asignatura\\tNombre Asignatura");\r\n\t\r\n\twhile(!feof(matricula2)){\r\n\t\t\r\n\t\t\r\n\t\tstrcpy(pr_nombre, pr_coger_nombre(pr_id));\r\n\t\tstrcpy(as_nombre, as_coger_nombre(as_id));\r\n\t\t\t\t\r\n\t\tprintf("%i %s %i %s\\n", pr_id, pr_nombre, as_id, as_nombre );\r\n\t\t\r\n\t\tfscanf(matricula2, "%i %i", &pr_id, &as_id);\r\n\t\t\r\n\t}\r\n\t\r\n\tfclose(matricula2);\r\n}'
