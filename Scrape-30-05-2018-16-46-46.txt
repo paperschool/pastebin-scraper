@@ -1,0 +1,2 @@
+Starting Scrape : 30-05-2018:16-46-46
+Scrape Failed : API Limit Hit 
