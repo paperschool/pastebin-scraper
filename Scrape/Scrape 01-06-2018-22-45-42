@@ -1,9 +1,0 @@
-
---------------------
-Title      : b'Untitled'
-Date       : Jun 1st, 2018
-Fetch Time : 01-06-2018:22-45-43
-Address    : https://pastebin.com/X2itHhzg
-ID         : X2itHhzg
-Type       : text
-b"NoMethodError in 'resource(@user) GET responds successfully'\r\nundefined method `[]' for nil:NilClass\r\n(eval):5:in `compiled'\r\n./spec/requests/users_spec.rb:89:"
