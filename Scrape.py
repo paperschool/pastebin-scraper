@@ -180,7 +180,7 @@ class ScrapeHandler:
 
         # storing scraped data to database
         c.execute(''' UPDATE '''+self.tablename+''' SET title=?, type=?, createDate=?, fetchDate=?, complete=?, content=? WHERE link=? ''',
-            title,type,date,time,complete,paste,link
+            [title,type,date,time,complete,paste,link]
         )
 
         db.commit()
