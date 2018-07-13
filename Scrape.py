@@ -151,7 +151,7 @@ class ScrapeHandler:
         # validating return and returning
         if(len(paste) == 0):
             Log.Log(2,"Scrape ["+self.addr + "/" + link+"]...")
-            self.storeScrape('deadlink','','',Log.NowString(),1,'',link)
+            self.storeScrape('deadlink','NULL','NULL',Log.NowString(),1,'NULL',link)
             return;
 
         # logging successful scrape
@@ -182,7 +182,6 @@ class ScrapeHandler:
         c.execute(''' UPDATE '''+self.tablename+''' SET title=?, type=?, createDate=?, fetchDate=?, complete=?, content=? WHERE link=? ''',
             title,type,date,time,complete,paste,link
         )
-
 
         db.commit()
         db.close()
