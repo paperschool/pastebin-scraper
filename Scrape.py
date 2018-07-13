@@ -151,7 +151,8 @@ class ScrapeHandler:
         # validating return and returning
         if(len(paste) == 0):
             Log.Log(2,"Scrape ["+self.addr + "/" + link+"]...")
-            return str(link)
+            self.storeScrape('deadlink','','',Log.NowString(),1,'',link)
+            return;
 
         # logging successful scrape
         Log.Log(4,"Scrape ["+self.addr + "/" + link+"]...")
