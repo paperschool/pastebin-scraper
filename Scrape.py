@@ -165,23 +165,22 @@ class ScrapeHandler:
         # fetching date of paste
         date = tree.xpath('//*[@id="content_left"]/div[2]/div[3]/div[2]/span/text()')[0]
 
+        # storing data in database
+        self.storeScrape(str(title),str(type),str(date),Log.NowString(),1,str(paste),link)
+
+        # saving new header and newly scraped content to composite file
+        self.Save(self.filename,self.makeHeader(str(title.encode("utf-8")),date,pasteType,self.addr + "/" + link,link))
+        self.Save(self.filename,str(paste[0]).encode("utf-8"))
+
+    def storeScrape(self,title,type,date,time,complete,paste,link):
+
         db = self.dbConn()
         c = db.cursor()
 
         # storing scraped data to database
         c.execute(''' UPDATE '''+self.tablename+''' SET title=?, type=?, createDate=?, fetchDate=?, complete=?, content=? WHERE link=? ''',
-            (str(title),
-            str(type),
-            str(date),
-            Log.NowString(),
-            1,
-            str(paste),
-            link)
+            title,type,date,time,complete,paste,link)
         )
-
-        # saving new header and newly scraped content to composite file
-        self.Save(self.filename,self.makeHeader(str(title.encode("utf-8")),date,pasteType,self.addr + "/" + link,link))
-        self.Save(self.filename,str(paste[0]).encode("utf-8"))
 
         db.commit()
         db.close()
