@@ -201,7 +201,7 @@ class ScrapeHandler:
         if(filesize >= 6000000):
             Log.Log(2,"Scrape File Size : "+str(filesize))
             self.filename = 'Scrape '+Log.NowString()
-            with open(self.filepath+self.filename, 'a') as f:
+            with open(self.filepath+self.filename, 'w+') as f:
                 f.write(str(''))
 
     # checking for api request block
@@ -211,7 +211,7 @@ class ScrapeHandler:
     def checkRemoved(self,tree):
         if(tree.xpath('//*[@id="notice"]/text()') != None):
             return tree.xpath('//*[@id="notice"]/text()')[0] == 'This page is no longer available. It has either expired, been removed by its creator, or removed by one of the Pastebin staff.'
-        
+
 
     # building text header for scraped content
     def makeHeader(self,name,date,pasteType,addr,id):
