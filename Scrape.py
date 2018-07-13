@@ -194,15 +194,20 @@ class ScrapeHandler:
         with open(self.filepath+fname, 'a') as f:
             f.write(str(content))
 
+    def checkFileExists(self):
+        return os.path.isFile(self.filepath+self.filename)
+
     def checkFileSize(self):
 
-        filesize = int(os.stat(self.filepath+self.filename).st_size)
+        if(self.checkFileExists()):
+        
+            filesize = int(os.stat(self.filepath+self.filename).st_size)
 
-        if(filesize >= 6000000):
-            Log.Log(2,"Scrape File Size : "+str(filesize))
-            self.filename = 'Scrape '+Log.NowString()
-            with open(self.filepath+self.filename, 'w+') as f:
-                f.write(str(''))
+            if(filesize >= 6000000):
+                Log.Log(2,"Scrape File Size : "+str(filesize))
+                self.filename = 'Scrape '+Log.NowString()
+                with open(self.filepath+self.filename, 'w+') as f:
+                    f.write(str(''))
 
     # checking for api request block
     def checkLimit(self,tree):
