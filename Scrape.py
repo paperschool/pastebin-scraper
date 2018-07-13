@@ -195,12 +195,12 @@ class ScrapeHandler:
             f.write(str(content))
 
     def checkFileExists(self):
-        return os.path.isFile(self.filepath+self.filename)
+        return os.path.isfile(self.filepath+self.filename)
 
     def checkFileSize(self):
 
         if(self.checkFileExists()):
-        
+
             filesize = int(os.stat(self.filepath+self.filename).st_size)
 
             if(filesize >= 6000000):
