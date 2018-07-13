@@ -195,7 +195,11 @@ class ScrapeHandler:
             f.write(str(content))
 
     def checkFileSize(self):
-        if(int(os.stat(self.filepath+self.filename).st_size) >= 6000000):
+
+        filesize = int(os.stat(self.filepath+self.filename).st_size)
+
+        if(filesize >= 6000000):
+            Log.Log(2,"Scrape File Size : "+str(filesize))
             self.filename = 'Scrape '+Log.NowString()
             with open(self.filepath+self.filename, 'a') as f:
                 f.write(str(''))
@@ -208,7 +212,7 @@ class ScrapeHandler:
         if(tree.xpath('//*[@id="notice"]/text()') == None):
             return tree.xpath('//*[@id="notice"]/text()')[0] == 'This page is no longer available. It has either expired, been removed by its creator, or removed by one of the Pastebin staff.'
         else :
-            Log.Log(4,"Scrape Failed...")
+            # Log.Log(4,"Scrape Failed...")
             return True
 
     # building text header for scraped content
