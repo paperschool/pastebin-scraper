@@ -214,8 +214,9 @@ class ScrapeHandler:
         return (len(tree.xpath('//*[@id="error"]')) > 0) or (tree.xpath('/html/head/title/text()')[0] == 'Pastebin.com - Access Denied Warning')
 
     def checkRemoved(self,tree):
-        if(tree.xpath('//*[@id="notice"]/text()') != None):
-            return tree.xpath('//*[@id="notice"]/text()')[0] == 'This page is no longer available. It has either expired, been removed by its creator, or removed by one of the Pastebin staff.'
+        removed = tree.xpath('//*[@id="notice"]/text()')
+        if(removed != None and len(removed) > 0):
+            return removed[0] == 'This page is no longer available. It has either expired, been removed by its creator, or removed by one of the Pastebin staff.'
 
 
     # building text header for scraped content
